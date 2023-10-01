@@ -1,4 +1,5 @@
-import Canvas from "./canvas.js";
+import Canvas from "./canvas";
+import GameObject from "./gameobject";
 
 var buildCanvas = {
 	scene: Canvas.make(document.body),

@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import animator from "./util";
 
 var Canvas = {
 	make: function(container, frame = ()=>{}) {
@@ -7,6 +8,9 @@ var Canvas = {
 
 		const ambientLight = new THREE.AmbientLight(0x444444);
 		scene.add(ambientLight);
+		
+		const directionalLight = new THREE.DirectionalLight(0x444444);
+		scene.add(directionalLight);
 
 		const renderer = new THREE.WebGLRenderer();
 		window.addEventListener("resize", function() {	
@@ -23,36 +27,12 @@ var Canvas = {
 				ambient: ambientLight,
 				directional: directionalLight
 			},
-			animator: Canvas.animator(function(delta) {
+			animator: animator(function(delta) {
 				renderer.render(scene, camera);
 				frame(delta);
 			})
 		};
 	},
-	animator: function(fn) {
-		let animator = {
-			_stopped: false,
-			_last: Date.now(),
-			stop: function() {
-				animator._stopped = true;
-			},
-			start: function() {
-				animator._stopped = false;
-				animator.tick();
-			},
-			tick: function() {
-				let now = Date.now();
-				fn(now - animator._last);
-				animator._last = now;
-
-				window.requestAnimationFrame(() => animator.tick());
-			}
-		};
-
-		animator.tick();
-		return animator;
-	}
 };
 
 export default Canvas;
-
