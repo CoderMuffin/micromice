@@ -1,0 +1,122 @@
+
+> dev
+> vite
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+
+  VITE v4.4.9  ready in 839 ms
+
+  ➜  Local:   http://127.0.0.1:5175/
+  ➜  Network: use --host to expose
+9:37:51 AM [vite] page reload js/script.js
+Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+9:37:52 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/codermuffin/working/micromice/js/buildcanvas.js:4:4
+  2  |  export default {
+  3  |  
+  4  |  };
+     |     ^
+  5  |  
+  6  |  
+      at formatError (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43993:46)
+      at TransformContext.error (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43989:19)
+      at TransformContext.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41740:22)
+      at async Object.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:44283:30)
+      at async loadAndTransform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:54950:29)
+      at async viteTransformMiddleware (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:64345:32)
+9:40:33 AM [vite] Internal server error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: /home/codermuffin/working/micromice/js/buildcanvas.js:4:4
+  2  |  export default {
+  3  |  
+  4  |  };
+     |     ^
+  5  |  
+  6  |  
+      at formatError (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43993:46)
+      at TransformContext.error (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43989:19)
+      at TransformContext.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41740:22)
+      at async Object.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:44283:30)
+      at async loadAndTransform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:54950:29)
+      at async viteTransformMiddleware (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:64345:32)
+Failed to resolve import "*" from "js/canvas.js". Does the file exist?
+9:41:32 AM [vite] Internal server error: Failed to resolve import "*" from "js/canvas.js". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/codermuffin/working/micromice/js/canvas.js:1:9
+  1  |  import "*" from THREE;
+     |          ^
+  2  |  
+  3  |  export default {
+      at formatError (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43993:46)
+      at TransformContext.error (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43989:19)
+      at normalizeUrl (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41801:33)
+      at async file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41945:47
+      at async Promise.all (index 0)
+      at async TransformContext.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41870:13)
+      at async Object.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:44283:30)
+      at async loadAndTransform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:54950:29)
+      at async viteTransformMiddleware (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:64345:32)
+9:42:09 AM [vite] page reload js/canvas.js
+Failed to resolve import "*" from "js/canvas.js". Does the file exist?
+9:42:10 AM [vite] Internal server error: Failed to resolve import "*" from "js/canvas.js". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/codermuffin/working/micromice/js/canvas.js:1:9
+  1  |  import "*" fs THREE from "three";
+     |          ^
+  2  |  
+  3  |  export default {
+      at formatError (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43993:46)
+      at TransformContext.error (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43989:19)
+      at normalizeUrl (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41801:33)
+      at async file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41945:47
+      at async Promise.all (index 0)
+      at async TransformContext.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41870:13)
+      at async Object.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:44283:30)
+      at async loadAndTransform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:54950:29)
+      at async viteTransformMiddleware (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:64345:32)
+9:42:15 AM [vite] page reload js/canvas.js
+Failed to resolve import "*" from "js/canvas.js". Does the file exist?
+9:42:15 AM [vite] Internal server error: Failed to resolve import "*" from "js/canvas.js". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/codermuffin/working/micromice/js/canvas.js:1:9
+  1  |  import "*" as THREE from "three";
+     |          ^
+  2  |  
+  3  |  export default {
+      at formatError (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43993:46)
+      at TransformContext.error (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43989:19)
+      at normalizeUrl (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41801:33)
+      at async file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41945:47
+      at async Promise.all (index 0)
+      at async TransformContext.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41870:13)
+      at async Object.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:44283:30)
+      at async loadAndTransform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:54950:29)
+      at async viteTransformMiddleware (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:64345:32)
+9:42:20 AM [vite] Internal server error: Failed to resolve import "*" from "js/canvas.js". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/codermuffin/working/micromice/js/canvas.js:1:9
+  1  |  import "*" as THREE from "three";
+     |          ^
+  2  |  
+  3  |  export default {
+      at formatError (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43993:46)
+      at TransformContext.error (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:43989:19)
+      at normalizeUrl (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41801:33)
+      at async file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41945:47
+      at async Promise.all (index 0)
+      at async TransformContext.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:41870:13)
+      at async Object.transform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:44283:30)
+      at async loadAndTransform (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:54950:29)
+      at async viteTransformMiddleware (file:///home/codermuffin/working/micromice/node_modules/vite/dist/node/chunks/dep-df561101.js:64345:32)
+9:42:34 AM [vite] page reload js/canvas.js
+9:42:36 AM [vite] ✨ new dependencies optimized: three
+9:43:28 AM [vite] page reload js/buildcanvas.js
+9:46:48 AM [vite] page reload js/canvas.js
+9:47:09 AM [vite] page reload js/buildcanvas.js
+9:49:36 AM [vite] hmr update /style.css?direct
+9:51:12 AM [vite] page reload js/canvas.js
+10:07:08 AM [vite] page reload js/canvas.js
+10:08:04 AM [vite] page reload js/canvas.js
+10:08:27 AM [vite] page reload js/canvas.js
